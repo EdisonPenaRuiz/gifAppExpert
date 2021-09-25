@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const AddCategory=({setAnimales})=>{
 
     //Variables
-    const [categoria,setCategoria]=useState('Hola');
+    const [categoria,setCategoria]=useState('');
 
     //Eventos
     const OnChangeTextInput=(e)=>{
